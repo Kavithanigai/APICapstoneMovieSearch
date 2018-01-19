@@ -25,9 +25,9 @@ App to search for movies and get details. App also shows a map of nearby movie t
 -JQuery
 -Ajax
 
-###Author
+### Author
 Kavitha Thanigaivelan
 
-#Apis Used
+# Apis Used
 TMDB API- Courtesy of TMDB
 Google Maps, places Api.
