@@ -29,5 +29,5 @@ App to search for movies and get details. App also shows a map of nearby movie t
 Kavitha Thanigaivelan
 
 # Apis Used
-- TMDB API- Courtesy of TMDB
+- TMDB API- Courtesy of The Movie DB.
 - Google Maps, places Api.
