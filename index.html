@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <!-- Responsive viewport tag, tells small screens that it's responsive -->
@@ -17,7 +17,7 @@
 
 
        <!-- Section for header, navigation -->
-        <header>
+        <header role='banner'>
           <div class="container">
             <div id="branding">
               <h1><span class="highlight">KT</span> Movie Search</h1>
@@ -42,13 +42,13 @@
             <div class= "slider-outer">
             <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-left-128.png"  class="prev" alt="Previous"/>
                 <div class= "slider-inner">
-                  <img src="https://www.gamezone.com/wp-content/uploads/2017/12/thelastjedi-posterbanner.jpg" class="active">
-                  <img src="https://images.mymovies.net/images/film/vue_player_imgs/fid17541_trid15805.jpg?sc=.99">
-                  <img src="https://i.ytimg.com/vi/9in6Ar0Op0Q/maxresdefault.jpg">
-                  <img src="https://proofinpicture.files.wordpress.com/2017/03/wonderwoman_wallpaper.jpeg?w=1536">
-                  <img src="http://images.entertainment.ie/images_content/rectangle/620x372/01-the-greatest-showman-hugh-jackman.jpg">
-                  <img src="http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/2017/04/gotg2.jpg?itok=YoxtpMx9">
-                  <img src="http://www.indiewire.com/wp-content/uploads/2017/12/jumanji-welcome-to-the-jungle-cast-5k-0-2048x1152.jpg?w=780">
+                  <img src="https://www.gamezone.com/wp-content/uploads/2017/12/thelastjedi-posterbanner.jpg" class="active" alt="The Last Jedi">
+                  <img src="https://images.mymovies.net/images/film/vue_player_imgs/fid17541_trid15805.jpg?sc=.99" alt="Ragnarok">
+                  <img src="https://i.ytimg.com/vi/9in6Ar0Op0Q/maxresdefault.jpg" alt="Despicable Me 3">
+                  <img src="https://proofinpicture.files.wordpress.com/2017/03/wonderwoman_wallpaper.jpeg?w=1536" alt="Wonder woman">
+                  <img src="http://images.entertainment.ie/images_content/rectangle/620x372/01-the-greatest-showman-hugh-jackman.jpg" alt="The Greatest Showman">
+                  <img src="http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/2017/04/gotg2.jpg?itok=YoxtpMx9" alt="The Guardians of Angel 2">
+                  <img src="http://www.indiewire.com/wp-content/uploads/2017/12/jumanji-welcome-to-the-jungle-cast-5k-0-2048x1152.jpg?w=780" alt="Jumanji Welcome To The Jungle">
                 </div><!-- Closing for slider-inner div -->
             <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-128.png"  class="next" alt="Next"/>
             </div><!-- Closing for slider-outer div -->
@@ -56,6 +56,8 @@
       </div><!-- Closing for row div -->
       </div><!-- Closing for container div -->
     </section>
+    
+    <main role="main" class="js-output" aria-live="assertive" >
 
     <!-- Section for Search Movies-->
     <section role='section'>
@@ -96,9 +98,11 @@
    </div><!-- Closing for row div -->
    </div><!-- Closing for container div -->
  </section>
+      
+      </main>
 
   <!-- Section for footer-->
-    <footer>
+    <footer role='contentinfo'>
       <div class="container">
        <p>KT Movie Search, Copyright &copy; 2018</p>
       </div><!-- Closing for container div -->
